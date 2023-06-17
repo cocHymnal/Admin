@@ -1,0 +1,99 @@
+.menubar{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: var(--primary-color);
+    z-index: 2;
+}
+.menubar .mobile{
+    display: none;
+}
+.menubar .menubar-container{
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.menubar-container .menubar-contents{
+    padding: 10px 30px;
+}
+.menubar-contents a{
+    text-decoration: none;
+    color: #fff;
+    padding: 6px;
+}
+.menubar-contents a{
+    color: #fff;
+    margin: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 6px 24px;
+}
+.menubar-contents a.active{
+    background: #ffffff4d;
+    color: #fff;
+    padding: 6px 24px;
+    border-radius: 6px;
+}
+
+.menubar-admin{
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+    width: 30%;
+    letter-spacing: .1em;
+    padding: 10px 20px;
+}
+
+@media only screen and (max-width : 800px) {
+    .menubar .mobile{
+        color: #fff;
+        display: flex;
+        padding: 5px;
+        position: relative;
+        width: 100%;
+
+        margin: 0;
+    }
+    .menubar .menubar-container{
+        display: none;
+    }
+    .menubar .mobile .title{
+        font-size: 18px;
+        padding: 5px;
+    }
+    .menubar .mobile .icon{
+        color: #fff;
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        font-size: 30px;
+    }
+    .menu{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        background: var(--primary-color);
+        height: 100vh;
+        color: #fff;
+        z-index: 2;
+    }
+    .menu-container{
+        padding: 10px;
+    } 
+    .close-icon {
+        color: #fff;
+        font-size: 25px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}

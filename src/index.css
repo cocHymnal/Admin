@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", "Pirata One";
+}
+
+:root{
+  --primary-color: #892F2F;
+}
+
+.App{
+  width: 100%;
+  padding: 0;
+}
+.pages{
+  margin-top: 50px;
+}
