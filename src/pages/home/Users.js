@@ -4,7 +4,10 @@ import "./styles/users.css"
 export default function Users() {
   return (
     <div className="users">
-      <div className="users-container">
+      <div className="no-item">
+        <h4>No item</h4>
+      </div>
+      {/* <div className="users-container">
         <div className="user-contents">
             <h4>36ge7vvet8gsg881ysg</h4>
           </div>
@@ -26,7 +29,7 @@ export default function Users() {
           <div className="user-contents">
             <p>Purchase</p>
           </div>
-      </div>
+      </div> */}
     </div>
   )
 }

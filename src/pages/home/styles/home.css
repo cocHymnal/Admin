@@ -53,3 +53,26 @@
     font-weight: 900;
     font-size: 29px;
 }
+
+@media only screen and (max-width : 800px) {
+    .total-users{
+        position: relative;
+        transition: 0.5s ease;
+        opacity: 1;
+        width: 80%;
+        gap: 10px;
+        background: #ffff;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.158);
+        cursor: pointer;
+        padding: 10px;
+        margin: 10px;
+        height: 170px;
+        z-index: 0;
+    }
+    .total-users:hover{
+        transition: 0.5s ease-in;
+        border-radius: 10px;
+        width: 80%;
+        border: 1px solid var(--primary-color);
+    }
+}

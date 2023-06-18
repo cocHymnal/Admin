@@ -70,12 +70,12 @@
     .menubar .mobile .icon{
         color: #fff;
         position: absolute;
-        right: 10px;
+        right: 15px;
         top: 5px;
         font-size: 30px;
     }
     .menu{
-        position: absolute;
+        position: fixed;
         width: 100%;
         left: 0;
         top: 0;
@@ -88,12 +88,31 @@
     }
     .menu-container{
         padding: 10px;
+        margin-top: 40px;
     } 
+    .menu-content{
+        margin: 5px;
+        padding: 5px;
+    }
+    .menu-content a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 700;
+        font-style: italic;
+    }
+    .menu-content a.active h4{
+        background: #ffffff2a;
+        border-radius: 4px;
+    }
+    .menu-content a h4{
+        padding: 6px;
+    }
     .close-icon {
         color: #fff;
-        font-size: 25px;
+        font-size: 30px;
+        font-weight: 800;
         position: absolute;
         top: 10px;
-        right: 10px;
+        right: 20px;
     }
 }

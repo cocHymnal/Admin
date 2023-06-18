@@ -13,16 +13,16 @@ export default function Menu({Close}) {
         </div>
         <div className="menu-container">
             <div onClick={handleClose} className="menu-content">
-                <h4><NavLink to="/">Home</NavLink> </h4>
+                <NavLink to="/"> <h4>Home</h4></NavLink>
             </div>
             <div onClick={handleClose} className="menu-content">
-                <h4><NavLink to="/users">Users</NavLink> </h4>
+                <NavLink to="/users"> <h4>Users</h4> </NavLink>
             </div>
             <div onClick={handleClose} className="menu-content">
-                <h4><NavLink to="/payment">Payments</NavLink> </h4>
+                <NavLink to="/payments"> <h4>Payments</h4></NavLink>
             </div>
             <div onClick={handleClose} className="menu-content">
-                <h4><NavLink to="/affiliate">Affiliate</NavLink> </h4>
+                <NavLink to="/affiliate"> <h4>Affiliate</h4> </NavLink>
             </div>
         </div>
     </div>
